@@ -14,5 +14,4 @@ lex file name
 gcc lex.yy.c
 ./a.out
 ```
-ALL THE BEST FOR THE EXTERNAL 
-WISHING YOU LUCK 
+WISHING YOU LUCK... HAPPY LEARNING 🤝😊

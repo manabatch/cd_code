@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include<conio.h>
 #include<stdlib.h>
 #include<string.h>
 struct three
@@ -15,7 +14,6 @@ void main()
 	f2=fopen("out.txt","w");
 	while(fscanf(f1,"%s",s[len].data)!=EOF)
 		len++;
-	itoa(j,d1,7);
 	strcat(d2,d1);
 	strcpy(s[j].temp,d2);
 	strcpy(d1,"");
@@ -32,7 +30,6 @@ void main()
 	}
 	for(i=4;i<len-2;i+=2)
 	{
-		itoa(j,d1,7);
 		strcat(d2,d1);
 		strcpy(s[j].temp,d2);
 		if(!strcmp(s[i+1].data,"+"))
@@ -46,5 +43,4 @@ void main()
 	fprintf(f2,"\n%s=%s",s[0].data,s[j-1].temp);
 	fclose(f1);
 	fclose(f2);
-	getch();
 }
